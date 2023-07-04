@@ -9,8 +9,8 @@ export default function updateStudentGradeByCity(list, city, newGrade) {
           student.grade = studentGrade.grade;
         }
 
-        if (!student.hasOwnProperty("grade")) {
-          student.grade = "N/A";
+        if (!student.hasOwnProperty('grade')) {
+          student.grade = 'N/A';
         }
         return student;
       });
